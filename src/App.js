@@ -30,7 +30,7 @@ class App extends Component {
   render() {
     return <div>
       <p>item result: { this.state.item }</p>
-      <button onClick={() => this.setState({ item: "ddddd" })}>Click</button>
+      <button onClick={() => this.setState({ item: "Changed" })}>Click</button>
     </div>;
   }
   
